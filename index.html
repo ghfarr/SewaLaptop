@@ -1,94 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sewa Laptop - Landingpage</title>
+    <title>Sewa Laptop - Profesional & Terpercaya</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #1e90ff; color: white; padding: 20px; text-align: center; }
-        section { padding: 40px 20px; max-width: 900px; margin: auto; }
-        h1, h2, h3 { color: #1e90ff; }
-        .product { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
-        .button { display: inline-block; background: #1e90ff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-        footer { background: #f0f0f0; text-align: center; padding: 20px; margin-top: 30px; }
-        .contact { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        header { background: #0073aa; color: white; padding: 20px 0; text-align: center; }
+        nav { background: #005f8d; padding: 10px 20px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1140px; margin: 20px auto; padding: 0 20px; }
+        .hero { background: url('https://source.unsplash.com/1600x400/?laptop,technology') no-repeat center center/cover; color: white; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 15px; }
+        .btn-primary { background: #0073aa; color: white; padding: 10px 25px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px; }
+        h2 { margin-top: 40px; margin-bottom: 20px; color: #0073aa; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product { border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        .product h3 { margin-bottom: 10px; }
+        .product p { margin-bottom: 15px; }
+        footer { background: #f0f0f0; text-align: center; padding: 20px; margin-top: 40px; }
+        .contact { background: #f9f9f9; padding: 30px; border: 1px solid #ddd; margin-top: 40px; border-radius: 8px; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Sewa Laptop Terbaik untuk Kebutuhan Anda</h1>
-    <p>Butuh laptop cepat untuk kerja, kuliah, atau event? Kami menyediakan berbagai jenis laptop dengan spesifikasi lengkap dan harga sewa terjangkau.</p>
-    <a href="#produk" class="button">Lihat Produk</a>
+    <h1>Sewa Laptop Berkualitas & Terpercaya</h1>
 </header>
+<nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#produk">Produk</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section class="hero">
+    <h1>Solusi Cepat untuk Kebutuhan Laptop Anda</h1>
+    <p>Sewa harian, mingguan, hingga bulanan untuk kerja, seminar, proyek, dan event</p>
+    <a href="#produk" class="btn-primary">Lihat Produk</a>
+</section>
+
+<div class="container">
 
 <section id="tentang">
-    <h2>Tentang Layanan</h2>
-    <p>Sewa Laptop Berkualitas, Praktis & Terpercaya. Layanan sewa laptop harian, mingguan, hingga bulanan untuk kebutuhan kerja, seminar, proyek, maupun pelajar. Semua unit telah melewati quality check dan siap pakai saat Anda terima.</p>
-    <a href="#kontak" class="button">Hubungi Kami</a>
+    <h2>Tentang Kami</h2>
+    <p>Kami menyediakan layanan sewa laptop dengan berbagai pilihan tipe & spesifikasi. Semua unit telah melalui quality check, siap digunakan kapan saja. Sewa praktis, proses cepat, harga transparan.</p>
 </section>
 
 <section id="produk">
-    <h2>Pilihan Produk Laptop</h2>
-    <div class="product">
-        <h3>Acer i3 10th Gen</h3>
-        <p>Cocok untuk kebutuhan dasar seperti browsing & Office.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
+    <h2>Pilihan Laptop Tersedia</h2>
+    <div class="product-grid">
+        <div class="product">
+            <h3>Acer i3 10th Gen</h3>
+            <p>Ideal untuk kebutuhan dasar seperti Office & browsing.</p>
+            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+        </div>
+        <div class="product">
+            <h3>Acer i5 8th Gen SSD</h3>
+            <p>Performa cepat untuk kerja multitasking.</p>
+            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+        </div>
+        <div class="product">
+            <h3>HP 14s Ryzen 3</h3>
+            <p>Ringan & stylish, cocok untuk pelajar & meeting online.</p>
+            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+        </div>
+        <div class="product">
+            <h3>VivoBook X412DA</h3>
+            <p>Laptop serbaguna, performa stabil, harga terjangkau.</p>
+            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+        </div>
     </div>
-    <div class="product">
-        <h3>Acer i5 8th Gen SSD</h3>
-        <p>Ideal untuk multitasking dan pekerjaan kantor.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
-    </div>
-    <div class="product">
-        <h3>HP 14s Ryzen 3</h3>
-        <p>Kinerja cepat dengan desain ringan.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
-    </div>
-    <div class="product">
-        <h3>VivoBook X412DA</h3>
-        <p>Ringan & stylish, cocok untuk presentasi dan meeting.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
-    </div>
-    <div class="product">
-        <h3>Toshiba Satellite Core i5</h3>
-        <p>Daya tahan baterai lama, cocok untuk mobile working.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
-    </div>
-    <div class="product">
-        <h3>Lenovo Ideapad 330</h3>
-        <p>Laptop serbaguna untuk kerja dan hiburan.</p>
-        <a href="#kontak" class="button">Sewa Sekarang</a>
-    </div>
-</section>
-
-<section id="tips">
-    <h2>Tips Sebelum Menyewa Laptop</h2>
-    <ul>
-        <li>Menentukan durasi sewa yang dibutuhkan</li>
-        <li>Menyesuaikan spesifikasi laptop dengan kebutuhan</li>
-        <li>Mengecek ketersediaan stok</li>
-        <li>Menyertakan identitas saat pemesanan</li>
-        <li>Membaca syarat & ketentuan peminjaman</li>
-        <li>Menggunakan perangkat dengan bijak & menjaga kondisi unit</li>
-    </ul>
 </section>
 
 <section id="kontak" class="contact">
-    <h2>Kontak Kami</h2>
-    <p>Masih bingung memilih laptop yang tepat? Tim kami siap membantu Anda.</p>
-    <p><b>Telepon:</b> 0812-3456-7890</p>
-    <p><b>Email:</b> sewalaptop@gmail.com</p>
-    <p><b>Alamat:</b> Jl. Teknologi No. 10, Yogyakarta</p>
-    <a href="mailto:sewalaptop@gmail.com" class="button">Kirim Pesan</a>
+    <h2>Hubungi Kami</h2>
+    <p>Masih ragu memilih? Konsultasikan kebutuhan Anda bersama tim kami.</p>
+    <p><strong>Telepon:</strong> 0812-3456-7890</p>
+    <p><strong>Email:</strong> sewalaptop@gmail.com</p>
+    <p><strong>Alamat:</strong> Jl. Teknologi No.10, Yogyakarta</p>
 </section>
 
+</div>
+
 <footer>
-    <p>Sewa Laptop | Layanan terpercaya dengan teknisi berpengalaman dan pilihan perangkat lengkap.</p>
-    <p>Nikmati layanan cepat, unit bersih, dan harga transparan — tanpa ribet!</p>
-    <p>&copy; 2025 SewaLaptop.com | NIM: 22.11.4682 | Nama: Muhammad Ghozi Alghifari</p>
+    <p>&copy; 2025 SewaLaptop.com | Muhammad Ghozi Alghifari - 22.11.4682</p>
 </footer>
 
 </body>
