@@ -3,88 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sewa Laptop - Profesional & Terpercaya</title>
+    <title>Sewa Laptop - Yogyakarta</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-        header { background: #0073aa; color: white; padding: 20px 0; text-align: center; }
-        nav { background: #005f8d; padding: 10px 20px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .container { max-width: 1140px; margin: 20px auto; padding: 0 20px; }
-        .hero { background: url('https://source.unsplash.com/1600x400/?laptop,technology') no-repeat center center/cover; color: white; text-align: center; padding: 80px 20px; }
-        .hero h1 { font-size: 2.5em; margin-bottom: 15px; }
-        .btn-primary { background: #0073aa; color: white; padding: 10px 25px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px; }
-        h2 { margin-top: 40px; margin-bottom: 20px; color: #0073aa; }
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .product { border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
-        .product h3 { margin-bottom: 10px; }
-        .product p { margin-bottom: 15px; }
-        footer { background: #f0f0f0; text-align: center; padding: 20px; margin-top: 40px; }
-        .contact { background: #f9f9f9; padding: 30px; border: 1px solid #ddd; margin-top: 40px; border-radius: 8px; }
+        header { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 99; }
+        nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 10px; }
+        nav a { color: #333; text-decoration: none; font-weight: bold; padding: 5px 10px; }
+        .hero { background: url('https://source.unsplash.com/1600x500/?laptop') no-repeat center/cover; color: white; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 3em; margin-bottom: 10px; }
+        .hero p { margin-bottom: 15px; }
+        .btn-primary { background: #0073aa; color: white; padding: 10px 25px; border: none; border-radius: 4px; text-decoration: none; display: inline-block; margin-top: 15px; }
+
+        .container { max-width: 1140px; margin: 40px auto; padding: 0 20px; }
+
+        .about, .product-section, .blog, .contact { margin-bottom: 60px; }
+
+        .section-title { color: #0073aa; margin-bottom: 20px; font-size: 1.5em; }
+
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .product { border: 1px solid #ddd; padding: 15px; border-radius: 8px; text-align: center; background: #fff; }
+        .product img { width: 100%; height: 150px; object-fit: cover; margin-bottom: 10px; }
+        .product h3 { margin-bottom: 10px; font-size: 1.1em; }
+        .product p { margin-bottom: 5px; }
+
+        .blog { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+
+        .contact-form { display: grid; gap: 15px; max-width: 400px; }
+        .contact-form input, .contact-form button { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        .contact-form button { background: #0073aa; color: white; cursor: pointer; }
+
+        footer { background: #222; color: white; padding: 30px 20px; text-align: center; font-size: 0.9em; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Sewa Laptop Berkualitas & Terpercaya</h1>
+    <h1>Sewa Laptop</h1>
+    <nav>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#blog">Blog</a>
+        <a href="#kontak">Kontak Kami</a>
+    </nav>
 </header>
-<nav>
-    <a href="#tentang">Tentang</a>
-    <a href="#produk">Produk</a>
-    <a href="#kontak">Kontak</a>
-</nav>
 
 <section class="hero">
-    <h1>Solusi Cepat untuk Kebutuhan Laptop Anda</h1>
-    <p>Sewa harian, mingguan, hingga bulanan untuk kerja, seminar, proyek, dan event</p>
-    <a href="#produk" class="btn-primary">Lihat Produk</a>
+    <h1>Sewa Laptop</h1>
+    <p>Layanan Laptop Berkualitas, Praktis & Terpercaya</p>
+    <a href="#produk" class="btn-primary">Beli Sekarang</a>
 </section>
 
 <div class="container">
 
-<section id="tentang">
-    <h2>Tentang Kami</h2>
-    <p>Kami menyediakan layanan sewa laptop dengan berbagai pilihan tipe & spesifikasi. Semua unit telah melalui quality check, siap digunakan kapan saja. Sewa praktis, proses cepat, harga transparan.</p>
+<section id="tentang" class="about">
+    <span class="section-title">Tentang Kami</span>
+    <h2>Sewa Laptop</h2>
+    <p>Jasa sewa laptop di Yogyakarta dengan harga murah untuk keperluan kantor, event, dan IT. Tersedia laptop harian, mingguan, atau bulanan. Telah dipercaya berbagai perusahaan di Yogyakarta untuk jasa sewa laptop dan multimedia lainnya.</p>
+    <a href="#" class="btn-primary" style="margin-top: 15px;">Selengkapnya</a>
 </section>
 
-<section id="produk">
-    <h2>Pilihan Laptop Tersedia</h2>
+<section id="produk" class="product-section">
+    <span class="section-title">Produk</span>
+    <h2>Pilihan Produk Laptop Yang Anda Sukai</h2>
     <div class="product-grid">
         <div class="product">
-            <h3>Acer i3 10th Gen</h3>
-            <p>Ideal untuk kebutuhan dasar seperti Office & browsing.</p>
-            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+            <img src="https://source.unsplash.com/300x200/?laptop" alt="Acer 14 Z1402">
+            <h3>Acer 14 Z1402</h3>
+            <p>Rp. 500.000 - 1.500.000</p>
+            <a href="#" class="btn-primary">Tentukan</a>
         </div>
         <div class="product">
-            <h3>Acer i5 8th Gen SSD</h3>
-            <p>Performa cepat untuk kerja multitasking.</p>
-            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+            <img src="https://source.unsplash.com/300x200/?laptop" alt="Acer V5-471G">
+            <h3>Acer V5-471G</h3>
+            <p>Rp. 500.000 - 1.500.000</p>
+            <a href="#" class="btn-primary">Tentukan</a>
         </div>
         <div class="product">
-            <h3>HP 14s Ryzen 3</h3>
-            <p>Ringan & stylish, cocok untuk pelajar & meeting online.</p>
-            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
-        </div>
-        <div class="product">
-            <h3>VivoBook X412DA</h3>
-            <p>Laptop serbaguna, performa stabil, harga terjangkau.</p>
-            <a href="#kontak" class="btn-primary">Sewa Sekarang</a>
+            <img src="https://source.unsplash.com/300x200/?laptop" alt="HP 14S-CF0130TU">
+            <h3>HP 14S-CF0130TU</h3>
+            <p>Rp. 500.000 - 1.500.000</p>
+            <a href="#" class="btn-primary">Tentukan</a>
         </div>
     </div>
 </section>
 
+<section id="blog" class="blog">
+    <span class="section-title">Blog</span>
+    <h2>Perhatikan Hal Ini Sebelum Membeli Laptop</h2>
+    <p><strong>Spesifikasi Perangkat:</strong> Pilih prosesor dan RAM sesuai kebutuhan, minimal Core i3 dan RAM 8GB.</p>
+    <p><strong>Model Laptop:</strong> Pilih model sesuai preferensi, tipis, ringan, atau laptop gaming.</p>
+    <p><strong>Harga dan Anggaran:</strong> Sesuaikan dengan kebutuhan & anggaran Anda.</p>
+    <p><strong>Kondisi Fisik:</strong> Periksa kondisi laptop, layar, keyboard, dan bodi sebelum membeli.</p>
+</section>
+
 <section id="kontak" class="contact">
+    <span class="section-title">Kontak Kami</span>
     <h2>Hubungi Kami</h2>
-    <p>Masih ragu memilih? Konsultasikan kebutuhan Anda bersama tim kami.</p>
-    <p><strong>Telepon:</strong> 0812-3456-7890</p>
-    <p><strong>Email:</strong> sewalaptop@gmail.com</p>
-    <p><strong>Alamat:</strong> Jl. Teknologi No.10, Yogyakarta</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center;">
+        <div>
+            <form class="contact-form">
+                <input type="text" placeholder="Alamat: Jl. Wijaya Kusuma No.17">
+                <input type="email" placeholder="Email: sewalaptop@gmail.com">
+                <input type="tel" placeholder="WhatsApp: 0812-7110-5269">
+                <button>Kirim</button>
+            </form>
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/300x200/?laptop,technology" alt="Gambar kontak">
+        </div>
+    </div>
 </section>
 
 </div>
 
 <footer>
-    <p>&copy; 2025 SewaLaptop.com | Muhammad Ghozi Alghifari - 22.11.4682</p>
+    <h3>Sewa Laptop</h3>
+    <p>Alamat: Jl. Wijaya Kusuma No.17, Condongcatur, Sleman, Yogyakarta</p>
+    <p>Telepon/WhatsApp: 0812-7110-5269 | Email: sewalaptop@gmail.com</p>
+    <p>&copy; 2025 Sewa Laptop. All Rights Reserved.</p>
 </footer>
 
 </body>
