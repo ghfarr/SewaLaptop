@@ -1,50 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Landing Page - Sewa Laptop</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f0f0f0;
-      color: #333;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      text-align: center;
-      color: #007acc;
-    }
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    footer {
-      margin-top: 50px;
-      text-align: center;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewa Laptop - Landingpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #1e90ff; color: white; padding: 20px; text-align: center; }
+        section { padding: 40px 20px; max-width: 900px; margin: auto; }
+        h1, h2, h3 { color: #1e90ff; }
+        .product { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
+        .button { display: inline-block; background: #1e90ff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        footer { background: #f0f0f0; text-align: center; padding: 20px; margin-top: 30px; }
+        .contact { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+    </style>
 </head>
 <body>
 
-  <h1>Landing Page - Sewa Laptop</h1>
-  <p style="text-align: center;">Wireframe Figma ditampilkan langsung di bawah ini:</p>
+<header>
+    <h1>Sewa Laptop Terbaik untuk Kebutuhan Anda</h1>
+    <p>Butuh laptop cepat untuk kerja, kuliah, atau event? Kami menyediakan berbagai jenis laptop dengan spesifikasi lengkap dan harga sewa terjangkau.</p>
+    <a href="#produk" class="button">Lihat Produk</a>
+</header>
 
-  <h2>📐 Desain Wireframe</h2>
-  <iframe 
-    src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/design/AlHKA4Lmd7aoQbFIC2xBDm/Digital-bisnis?node-id=0-1&t=nDmhVJyKPGglEMS7-1" 
-    allowfullscreen>
-  </iframe>
+<section id="tentang">
+    <h2>Tentang Layanan</h2>
+    <p>Sewa Laptop Berkualitas, Praktis & Terpercaya. Layanan sewa laptop harian, mingguan, hingga bulanan untuk kebutuhan kerja, seminar, proyek, maupun pelajar. Semua unit telah melewati quality check dan siap pakai saat Anda terima.</p>
+    <a href="#kontak" class="button">Hubungi Kami</a>
+</section>
 
-  <footer>
-    22.11.4682 - Muhammad Ghozi Alghifari
-    22.11.4705 Euodeo Pavenda Putra
-  </footer>
+<section id="produk">
+    <h2>Pilihan Produk Laptop</h2>
+    <div class="product">
+        <h3>Acer i3 10th Gen</h3>
+        <p>Cocok untuk kebutuhan dasar seperti browsing & Office.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+    <div class="product">
+        <h3>Acer i5 8th Gen SSD</h3>
+        <p>Ideal untuk multitasking dan pekerjaan kantor.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+    <div class="product">
+        <h3>HP 14s Ryzen 3</h3>
+        <p>Kinerja cepat dengan desain ringan.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+    <div class="product">
+        <h3>VivoBook X412DA</h3>
+        <p>Ringan & stylish, cocok untuk presentasi dan meeting.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+    <div class="product">
+        <h3>Toshiba Satellite Core i5</h3>
+        <p>Daya tahan baterai lama, cocok untuk mobile working.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+    <div class="product">
+        <h3>Lenovo Ideapad 330</h3>
+        <p>Laptop serbaguna untuk kerja dan hiburan.</p>
+        <a href="#kontak" class="button">Sewa Sekarang</a>
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Tips Sebelum Menyewa Laptop</h2>
+    <ul>
+        <li>Menentukan durasi sewa yang dibutuhkan</li>
+        <li>Menyesuaikan spesifikasi laptop dengan kebutuhan</li>
+        <li>Mengecek ketersediaan stok</li>
+        <li>Menyertakan identitas saat pemesanan</li>
+        <li>Membaca syarat & ketentuan peminjaman</li>
+        <li>Menggunakan perangkat dengan bijak & menjaga kondisi unit</li>
+    </ul>
+</section>
+
+<section id="kontak" class="contact">
+    <h2>Kontak Kami</h2>
+    <p>Masih bingung memilih laptop yang tepat? Tim kami siap membantu Anda.</p>
+    <p><b>Telepon:</b> 0812-3456-7890</p>
+    <p><b>Email:</b> sewalaptop@gmail.com</p>
+    <p><b>Alamat:</b> Jl. Teknologi No. 10, Yogyakarta</p>
+    <a href="mailto:sewalaptop@gmail.com" class="button">Kirim Pesan</a>
+</section>
+
+<footer>
+    <p>Sewa Laptop | Layanan terpercaya dengan teknisi berpengalaman dan pilihan perangkat lengkap.</p>
+    <p>Nikmati layanan cepat, unit bersih, dan harga transparan — tanpa ribet!</p>
+    <p>&copy; 2025 SewaLaptop.com | NIM: 22.11.4682 | Nama: Muhammad Ghozi Alghifari</p>
+</footer>
 
 </body>
 </html>
