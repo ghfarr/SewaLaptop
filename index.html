@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sewa Laptop</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7ETL6RYP7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J7ETL6RYP7');
+  </script>
+
   <style>
     /* Hexagon shape styling for the About image */
     .hexagon {
@@ -29,7 +39,6 @@
       object-fit: cover;
       display: block;
     }
-    /* Scroll bar hidden for header nav on small screens */
     .nav-scroll {
       scroll-behavior: smooth;
       -webkit-overflow-scrolling: touch;
@@ -39,7 +48,6 @@
     .nav-scroll::-webkit-scrollbar {
       display: none;
     }
-    /* Ellipse lighten shape behind about image */
     .ellipse-lighten {
       background: radial-gradient(circle at center, #e0e7ff77, transparent 60%);
       position: absolute;
@@ -53,6 +61,7 @@
     }
   </style>
 </head>
+
 <body class="bg-white text-gray-900 leading-relaxed font-sans selection:bg-blue-600 selection:text-white">
 
   <!-- Navbar -->
